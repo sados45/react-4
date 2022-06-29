@@ -55,12 +55,13 @@ class App extends Component {
  render() {
    return (
        <div className="container">
-        <Navbar title ="User App 2"/>
+        <Navbar title ="User App"/>  
+        {/* //title ="User App" i kaldirisak navbar icinde Default App in icindeki Default App vasligi devreye girer.  */}
         <hr/>
        <Propist 
        name = "Sedat BAGIRGAN"
        departman = "Development"
-       price = "10000$"
+        
        
        />
         <Propist 
